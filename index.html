@@ -1,14 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chery Camberly</title>
-    <style src="styles.css"></style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chery Camberly | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <p class="bigTitle">Hello People</p>
+    <nav class="navbar">
+        <div class="nav-container">
+        <div class="nav-links">
+            <a href="index.html" class="active">HOME</a>
+            <a href="projects.html">PROJECTS</a>
+        </div>
+        </div>
+    </nav>
 
-    <script type="module" src="script.js"></script>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Hello,</h2>
+            <h1>I’m <span>Chery Camberly</span></h1>
+            <p>Computer Science Student, UI/UX Enthusiast,<br>
+            and Future Front-End Developer</p>
+            <button id="emailBtn" class="email-btn">cherycamberly@gmail.com</button>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about">
+        <h2>ABOUT ME</h2>
+        <p>
+            I’m a Computer Science student at BINUS University, specializing in Interactive Multimedia.
+            My passion lies in creating engaging and user-friendly digital interfaces through clean, responsive
+            frontend design. I’ve worked on various university projects involving React.js, HTML, CSS,
+            JavaScript, and Unity, combining creativity and logic to build meaningful user experiences.
+            Outside of coding, I enjoy exploring design principles, collaborating in teams, and continuously
+            learning new technologies to grow as a developer.
+        </p>
+    </section>
+
+    <!-- TECHNICAL SKILL -->
+    <section class="skills">
+        <h2>TECHNICAL SKILL</h2>
+        <p>HTML &nbsp; CSS &nbsp; JavaScript &nbsp; ReactJS &nbsp; C, C++ &nbsp; Java &nbsp; MySQL</p>
+    </section>
+
+    <!-- PROJECT GALLERY -->
+    <section class="projects">
+        <h2>PROJECT GALLERY</h2>
+        <div class="project-gallery">
+            <img src="assets/project6.png" alt="Project 1">
+            <img src="assets/project3.png" alt="Project 2">
+        </div>
+        <button id="projectBtn" class="more-btn">More Projects →</button>
+    </section>
+
+    <!-- CONTACT -->
+    <footer class="contact">
+        <h2>CONTACT ME HERE</h2>
+        <p>cherycamberly@gmail.com<br>081949238241</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
