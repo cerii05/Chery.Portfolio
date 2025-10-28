@@ -42,17 +42,18 @@ body {
 
 .project-header {
   text-align: center;
-  padding: 50px 10% 40px;
+  padding: 3rem 2rem;
+  /* padding: 2rem 0rem; */
 }
 .project-header h1 {
   font-size: 3.8rem;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
 }
 .project-header p {
   color: #444;
   max-width: 75%;
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 .project-list {
   display: grid;
@@ -77,7 +78,7 @@ body {
 }
 .project-card h3 {
   color: #222;
-  font-size: 23px;
+  font-size: 3rem;
 }
 .project-card p {
   color: #555;
@@ -91,11 +92,31 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+/* .nav-container{
+  justify-content: center;
+} */
+  .navbar {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+
   .project-header h1 {
     font-size: 1.8rem;
+  }
+  .project-header p {
+    font-size: 1rem;
   }
   .project-list {
     grid-template-columns: 1fr;
     padding: 0 8% 40px;
+  }
+    .project-card h3 {
+    color: #222;
+    font-size: 1.6rem;
+  }
+  .project-card p {
+    color: #222;
+    font-size: 1.2rem;
   }
 }
