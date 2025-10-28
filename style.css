@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Stylish", sans-serif;
+  font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(120deg, #D8E8F2, #ffffff, #D8E8F2);
@@ -47,16 +47,17 @@ body {
   margin-bottom: 8%;
 }
 .hero-text h2 {
-    font-size: 5rem;
+  font-size: 5rem;
   color: #222;
 }
 .hero-text h1 {
-    font-size: 5rem;
+  font-size: 5rem;
   color: #111;
   margin: 5px 0;
 }
 .hero-text span {
   font-weight: 700;
+  font-size: 8rem;
 }
 .hero-text p {
   font-size: 1.8rem;
@@ -72,7 +73,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   font-size: 2rem;
-  font-family: "Stylish", sans-serif;
+  font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -126,6 +127,8 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
   margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .project-gallery img:hover {
   transform: scale(1.05);
@@ -138,7 +141,7 @@ body {
   padding: 15px 30px;
   cursor: pointer;
   transition: 0.3s;
-  font-family: "Stylish", sans-serif;
+  font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
@@ -162,9 +165,28 @@ body {
     text-align: center;
     padding: 60px 20px;
   }
-
+  .hero-text h2 {
+    font-size: 1.8rem;
+  }
   .hero-text h1 {
     font-size: 2rem;
+  }
+  .hero-text span {
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .email-btn, .more-btn {
+    font-size: 1.3rem;
+  }
+
+  .about h2, .skills h2, .projects h2, .contact h2 {
+    font-size: 1.5rem;
+  }
+  .about p, .skills p, .contact p {
+    font-size: 1rem;
   }
 
   .project-gallery img {

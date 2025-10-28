@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Stylish", sans-serif;
+  font-family: "Jersey 20", sans-serif;
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(120deg, #D8E8F2, #ffffff, #D8E8F2);
@@ -92,9 +92,6 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
-/* .nav-container{
-  justify-content: center;
-} */
   .navbar {
     padding: 0.5rem;
     font-size: 1.2rem;
