@@ -20,7 +20,7 @@ body {
   top: 0;
   z-index: 10;
   border-radius: 8px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
 }
 .nav-container {
   display: flex;
