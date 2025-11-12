@@ -16,14 +16,14 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 2.5vh;
-    padding: 38vh 10vw 38vh 10vw;
+    padding: 30vh 5vw 30vh 5vw;
 }
 
 .left-content {
     justify-content: center;
 
     img{
-        width: 290px;
+        width: 150px;
         border-radius: 50%;
     }
 }
@@ -33,27 +33,26 @@ body{
     color: white;
     letter-spacing: 2px;
     h2{
-        font-size: 4.3rem;
+        font-size: 3rem;
     }
     p{
-        font-size: 2rem;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        font-size: 1.8rem;
     }
     button{
-        width: 538px;
-        height: 70px;
+        width: 500px;
+        height: 55px;
         border-radius: 10px;
         cursor: pointer;
         background: linear-gradient(120deg, #61B5FF, #D76E9A);
         font-family: "Jersey 20", sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: white;
         text-shadow: black;
         border: none;
         transition: transform 0.3s ease;
+        margin-top: 20px;
     }
     button:hover{
         transform: scale(1.1);
@@ -72,11 +71,11 @@ body{
     padding: 10vh 10vw 35vh 10vw;
 
     h2 {
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
 
     p{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -93,7 +92,7 @@ body{
     border-radius: 25px;
 
     h2{
-        font-size: 3.7rem;
+        font-size: 3rem;
         margin-bottom: 20px;
         margin-top: 35px;
     }
@@ -138,7 +137,7 @@ body{
     margin: 2.5vh;
     padding: 10vh 10vw 10vh 10vw;
     h2{
-        font-size: 3.7rem;
+        font-size: 3rem;
     }
     button {
         width: 30vw;
