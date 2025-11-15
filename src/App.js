@@ -1,33 +1,47 @@
 import React from "react";
 import "./App.css";
+import LiquidChrome from './components/LiquidChrome';
 
 
 function App() {
   return (
   <>
     <section className="part1">
-      <div className="left-content">
-        <img src="/assets/Chery_pasfoto1x1.png" alt="Chery's face" />
-      </div>
+  {/* Background */}
+  <div className="liquid-background">
+    <LiquidChrome
+        baseColor={[0.2, 0.2, 0.3]}
+        speed={0.1}
+        amplitude={0.3}
+        interactive={true}
+    />
+  </div>
 
-      <div className="right-content">
-        <h2>Hello!</h2>
-        <h2>I'm Chery Camberly</h2>
-        <p>Computer Science Student, UI/UX Enthusiast,</p>
-        <p>Future UI UX Designer and Front-End Developer</p>
+  {/* Konten */}
+  <div className="content">
+    <div className="left-content">
+      <img src="/assets/Chery_pasfoto1x1.png" alt="Chery's face" />
+    </div>
 
-        <button
-          className="btn-to-contact"
-          onClick={() =>
-            document
-              .getElementById("contact-chery")
-              .scrollIntoView({ behavior: "smooth" })
-          }
-        >
-          Contact Me
-        </button>
-      </div>
-    </section>
+    <div className="right-content">
+      <h2>Hello!</h2>
+      <h2>I'm Chery Camberly</h2>
+      <p>Computer Science Student, UI/UX Enthusiast,</p>
+      <p>Future UI UX Designer and Front-End Developer</p>
+
+      <button
+        className="btn-to-contact"
+        onClick={() =>
+          document
+            .getElementById("contact-chery")
+            .scrollIntoView({ behavior: "smooth" })
+        }
+      >
+        Contact Me
+      </button>
+    </div>
+  </div>
+</section>
 
     <section className="part2">
       <h2>ABOUT ME</h2>
