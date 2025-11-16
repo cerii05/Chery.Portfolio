@@ -22,10 +22,7 @@ body {
   z-index: -1; 
 }
 
-.part1,
-.part2,
-.part4,
-.part5 {
+.part4, .part5 {
     display: flex;
     flex-direction: column;
     align-items: center; /* center horizontal */
@@ -335,15 +332,12 @@ body {
     .part5 p {
         font-size: 1.4rem;
     }
-    .part1,
-    .part2,
-    .part3,
-    .part4,
-    .part5 {
+
+    .part4, .part5 {
         align-items: center;
         text-align: center;
         margin: 2.5vh auto;
         width: 100%;
-        padding: 0 5vw; /* biar gak mepet ke pinggir */
+        padding: 0 5vw;
     }
 }
