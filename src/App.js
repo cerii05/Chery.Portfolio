@@ -1,49 +1,53 @@
 import React from "react";
 import "./App.css";
-import LiquidChrome from './components/LiquidChrome';
+import ColorBends from './components/ColorBends';
 
 
 function App() {
   return (
   <>
-    <section className="part1">
-  {/* Background */}
   <div className="liquid-background">
-    <LiquidChrome
-        baseColor={[0.2, 0.2, 0.3]}
-        speed={0.1}
-        amplitude={0.3}
-        interactive={true}
+    <ColorBends
+        colors={["#ff5c7a", "#8a5cff", "#00ffd1"]}
+        rotation={30}
+        speed={0.3}
+        scale={1.2}
+        frequency={1.4}
+        warpStrength={1.2}
+        mouseInfluence={0.8}
+        parallax={0.6}
+        noise={0.08}
+        transparent
     />
   </div>
+    <section className="part1">
+        <div className="content">
+            <div className="left-content">
+            <img src="/assets/Chery_pasfoto1x1.png" alt="Chery's face" />
+            </div>
 
-  {/* Konten */}
-  <div className="content">
-    <div className="left-content">
-      <img src="/assets/Chery_pasfoto1x1.png" alt="Chery's face" />
-    </div>
+            <div className="right-content">
+            <h2>Hello!</h2>
+            <h2>I'm Chery Camberly</h2>
+            <p>Computer Science Student, UI/UX Enthusiast,</p>
+            <p>Future UI UX Designer and Front-End Developer</p>
 
-    <div className="right-content">
-      <h2>Hello!</h2>
-      <h2>I'm Chery Camberly</h2>
-      <p>Computer Science Student, UI/UX Enthusiast,</p>
-      <p>Future UI UX Designer and Front-End Developer</p>
-
-      <button
-        className="btn-to-contact"
-        onClick={() =>
-          document
-            .getElementById("contact-chery")
-            .scrollIntoView({ behavior: "smooth" })
-        }
-      >
-        Contact Me
-      </button>
-    </div>
-  </div>
-</section>
+            <button
+                className="btn-to-contact"
+                onClick={() =>
+                document
+                    .getElementById("contact-chery")
+                    .scrollIntoView({ behavior: "smooth" })
+                }
+            >
+                CONTACT ME
+            </button>
+            </div>
+        </div>
+        </section>
 
     <section className="part2">
+        
       <h2>ABOUT ME</h2>
       <p>
         {"I'm"} a Computer Science student at BINUS University, specializing in Interactive Multimedia.
