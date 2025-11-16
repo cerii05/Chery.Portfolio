@@ -22,13 +22,13 @@ body {
   z-index: -1; 
 }
 
-.part4, .part5 {
+/* .part4, .part5 {
     display: flex;
     flex-direction: column;
-    align-items: center; /* center horizontal */
-    text-align: center;  /* text center */
-    margin: 2.5vh auto;  /* kiri-kanan auto */
-}
+    align-items: center; 
+    text-align: center;  
+    margin: 2.5vh auto;  
+} */
 
 /* ===== PART 1 ===== */
 
@@ -333,11 +333,20 @@ body {
         font-size: 1.4rem;
     }
 
-    .part4, .part5 {
+    /* .part4, .part5 {
         align-items: center;
         text-align: center;
         margin: 2.5vh auto;
         width: 100%;
         padding: 0 5vw;
+    } */
+
+    .projects-display {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        justify-items: center;
+        align-items: center;
+        padding: 2rem;
     }
 }
